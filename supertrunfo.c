@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> // inclusa por causa do strcspn
 
 int main(){
 
@@ -16,7 +16,7 @@ int main(){
     printf("Digite o Código da Carta: \n");
     scanf(" %3s", cod_carta);  // espaço antes do %c
 
-    // função para resolver o problema que estava pulando a etapa de colocar o nome da cidade.
+    // função para resolver o problema que estava pulando a etapa de colocar o nome da cidade ao usar o fgets + scanf
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 
