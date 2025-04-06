@@ -16,6 +16,7 @@ int main(){
     printf("Digite o Código da Carta: \n");
     scanf(" %3s", cod_carta);  // espaço antes do %c
 
+    // função para resolver o problema que estava pulando a etapa de colocar o nome da cidade.
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 
